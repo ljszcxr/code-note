@@ -1,3 +1,11 @@
+'''
+initialize a result variable to be an empty list
+loop
+   create a new element
+   append it to result
+return the result
+'''
+
 a_k = ['banana', 'apple', 'pear', 'lemon']
 def double_stuff(a_list):
     new_list = []
