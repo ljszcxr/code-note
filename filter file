@@ -1,3 +1,6 @@
+#“get the lines we’re not concerned with out of the 
+#way early, so that we have cleaner more focused logic 
+#in the meaty part of the loop that might be written around line 11.”
 def filter(oldfile, newfile):
      infile = open(oldfile, "r")
      outfile = open(newfile, "w")
